@@ -34,7 +34,7 @@ footer {
     color: #000000;
 }
 
-.content {
+q .content {
     padding: 10px;
 }
 
@@ -107,4 +107,16 @@ footer {
     grid-row: row 4;
     background-color: #ffc4cf;
     border: 1px #ffffff solid;
+}
+
+#albums {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10;
+}
+
+#albums img:hover {
+    display: flex;
+
 }
