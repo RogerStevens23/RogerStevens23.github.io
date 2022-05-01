@@ -17,6 +17,10 @@ footer {
     background-color: #333333;
 }
 
+section {
+    border: 5px #ffffff solid;
+}
+
 #navbar {
     display: flex;
     background-color: #333;
@@ -34,7 +38,7 @@ footer {
     color: #000000;
 }
 
-q .content {
+.content {
     padding: 10px;
 }
 
@@ -113,10 +117,22 @@ q .content {
     display: flex;
     padding: 10px;
     justify-content: center;
-    gap: 10;
+    gap: 10px;
 }
 
-#albums img:hover {
-    display: flex;
+#albums img {
+    width: 200px;
+}
 
+#games img {
+    padding-left: 65px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (min-width: 400px) {
+    #albums {
+        flex-wrap: wrap;
+    }
 }
