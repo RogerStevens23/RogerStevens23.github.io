@@ -1,20 +1,28 @@
-.about_me {
-    background-color: blue;
-}
-
 #about_me_img {
     width: 250px;
 }
 
+.project_header {
+    text-decoration: none;
+}
+
 .project_header:hover {
-    height: 100px;
+    height: 20px;
     width: 100px;
     color: #000;
     background-color: rgb(156, 154, 154);
-    padding: 20px;
+    padding: 1px;
     border: #000 solid;
 }
 
 .project_img {
+    height: 200px;
     width: 200px;
+}
+
+#section_projects_grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+
 }
