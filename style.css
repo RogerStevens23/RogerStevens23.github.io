@@ -1,0 +1,20 @@
+.about_me {
+    background-color: blue;
+}
+
+#about_me_img {
+    width: 250px;
+}
+
+.project_header:hover {
+    height: 100px;
+    width: 100px;
+    color: #000;
+    background-color: rgb(156, 154, 154);
+    padding: 20px;
+    border: #000 solid;
+}
+
+.project_img {
+    width: 200px;
+}
