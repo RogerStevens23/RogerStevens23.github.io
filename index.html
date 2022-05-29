@@ -8,7 +8,9 @@
     <title>Roger Stevens</title>
 </head>
 <body>
-    <h1 class="page_header">Roger Allen Stevens Jr.</h1>
+    <header class="page_header">
+        <h1 class="page_header">Roger Allen Stevens Jr.</h1>
+    </header>
     <nav class="page_section_nav">
         <a href="#home" id="nav_home">Home</a>
         <a href="#about_me" id="nav_about_me">About Me</a>
@@ -19,9 +21,12 @@
         <h2 id="about_me_header">About Me</h2>
         <img src="assets/headshot.png" alt="Headshot" id="about_me_img">
 
-        <p id="about_me_bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dignissimos quibusdam officiis, quis aspernatur eius impedit, voluptates at deleniti tenetur, excepturi officia!
-             In cupiditate soluta magni. Animi recusandae laboriosam modi ipsam.</p>
+        <h2 id="about_me_bio_header">Bio:</h2>
+        <p id="about_me_bio">Was always curious about technology from an early age. Started cleaning electronics and circuit boards before becoming a teenager.
+            In middle school was modding consoles and hacking games, as well as jailbreaking iPhones.
+            Starting coding in high school while attending a trade school for electronic computer technology.
+            Learned how to create circuits using logic gates with pass through components and breadboards. wrote code for programmable logic computers and Arduino.
+            Started learning C# using Visual Studio in 2020 and 2021. Currently attending the We Can Code It bootcamp learning Java, HTML, CSS, and Spring.</p>
 
         <nav id="about_me_contact_info">
             <a href="https://github.com/RogerStevens23" target="_blank">Github</a>
@@ -40,25 +45,60 @@
 
     <section class="section_projects">
         <h2 id="section_projects_header">Projects</h2>
-        <ul id="section_projects_list">
-            <li><article class="project">
+        <div id="section_projects_grid">
+
+            <article class="project">
                 <a href="https://github.com/2022-April-Java-PT-Classroom/virtual-pet-RogerStevens23" target="_blank">
                     <h1 class="project_header">Virtual Pet</h1></a>
                 <img src="assets/virtualPet.png" alt="VirtualPetScreenshot" class="project_img">
-            </article></li>
-            <li><article class="project">
+                <p>A Java console application game with a representation of a animal with basic attributes.</p>
+                <h1 class="project_skills_header">Skills</h1>
+                <ul class="project_skills_list">
+                    <li>Java Syntax</li>
+                    <li>Primitive Types</li>
+                    <li>If Else</li>
+                    <li>While Loops</li>
+                    <li>For Loops</li>
+                </ul>
+            </article>
+
+            <article class="project">
                 <a href="https://github.com/2022-April-Java-PT-Classroom/virtual-pet-shelter-RogerStevens23" target="_blank">
                     <h1 class="project_header">Virtual Pet Shelter</h1></a>
                 <img src="assets/virtualPetShelter.png" alt="VirtualPetShelterScreenshot" class="project_img">
-            </article></li>
-            <li><article class="project">
+                <p>A Java console applicaiton representing a dog shelter where the user is controlling multiple pets.</p>
+                <h1 class="project_skills_header">Skills</h1>
+                <ul class="project_skills_list">
+                    <li>Array List</li>
+                    <li>Return Methods</li>
+                    <li>Override Methods</li>
+                    <li>Reference Types</li>
+                    <li>Junit Testing</li>
+                </ul>
+            </article>
+
+            <article class="project">
                 <a href="https://github.com/2022-April-Java-PT-Classroom/virtual-pet-amok-RogerStevens23" target="_blank">
                     <h1 class="project_header">Virtual Pet Amok</h1></a>
                 <img src="assets/virtualPetAmok.png" alt="VirtualPetAmokScreenshot" class="project_img">
-            </article></li>
-        </ul>
+                <p>A Java console application representing an animal shelter that can house multiple types of different pets.</p>
+                <h1 class="project_skills_header">Skills</h1>
+                <ul class="project_skills_list">
+                    <li>OOP Design</li>
+                    <li>Junit Testing</li>
+                    <li>Hamcrest Testing</li>
+                    <li>Inheiritance</li>
+                    <li>Abstraction</li>
+                </ul>
+            </article>
+
+        </div>
 
     </section>
+
+    <footer id="footer">
+        <p>&copy; Roger Stevens 2022</p>
+    </footer>
 
 </body>
 
